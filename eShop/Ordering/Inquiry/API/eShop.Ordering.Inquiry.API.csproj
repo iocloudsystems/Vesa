@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net70</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\vesa\Core\vesa.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Cosmos\vesa.Cosmos.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\File\vesa.File.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\SQL\vesa.SQL.csproj" />
+    <ProjectReference Include="..\..\Database\SQL\eShop.Ordering.Database.SQL.csproj" />
+    <ProjectReference Include="..\..\Data\eShop.Ordering.Data.csproj" />
+    <ProjectReference Include="..\Service\eShop.Ordering.Inquiry.Service.csproj" />
+    <ProjectReference Include="..\StateViews\eShop.Ordering.Inquiry.StateViews.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\vesa\Core\vesa.Core.csproj" />
+    <ProjectReference Include="..\..\Core\eShop.Inventory.Core.csproj" />
+    <ProjectReference Include="..\..\Data\eShop.Inventory.Data.csproj" />
+    <ProjectReference Include="..\Core\eShop.Inventory.Management.Core.csproj" />
+  </ItemGroup>
+
+</Project>

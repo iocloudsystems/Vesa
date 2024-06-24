@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net70</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-eShop.Ordering.Management.Worker-700748A7-10E9-4C1A-ADA1-DBFABF0849A1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\vesa\Blob\vesa.Blob.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Core\vesa.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Cosmos\vesa.Cosmos.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\EventHub\vesa.EventHub.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\File\vesa.File.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Kafka\vesa.Kafka.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\SQL\vesa.SQL.csproj" />
+    <ProjectReference Include="..\..\Database\SQL\eShop.Ordering.Database.SQL.csproj" />
+    <ProjectReference Include="..\..\Inquiry\StateViews\eShop.Ordering.Inquiry.StateViews.csproj" />
+    <ProjectReference Include="..\Service\eShop.Ordering.Management.Service.csproj" />
+  </ItemGroup>
+</Project>

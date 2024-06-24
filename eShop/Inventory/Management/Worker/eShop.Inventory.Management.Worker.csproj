@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-eShop.Inventory.Management.Worker-1d55df6d-e5d1-4b9d-8eda-3833675b3d67</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\vesa\Blob\vesa.Blob.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Core\vesa.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Cosmos\vesa.Cosmos.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\EventHub\vesa.EventHub.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\File\vesa.File.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\Kafka\vesa.Kafka.csproj" />
+    <ProjectReference Include="..\..\..\..\vesa\SQL\vesa.SQL.csproj" />
+    <ProjectReference Include="..\..\..\Ordering\Database\SQL\eShop.Ordering.Database.SQL.csproj" />
+    <ProjectReference Include="..\..\Core\eShop.Inventory.Core.csproj" />
+    <ProjectReference Include="..\Service\eShop.Inventory.Management.Service.csproj" />
+  </ItemGroup>
+</Project>

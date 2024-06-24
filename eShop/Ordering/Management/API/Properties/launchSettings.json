@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24228",
+      "sslPort": 44335
+    }
+  },
+  "profiles": {
+    "eShop.Ordering.Management.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7107;http://localhost:5107",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "COSMOSDB-URL": "https://localhost:8081",
+        "COSMOSDB-KEY": "",
+        "LOCKDB-CONNECTION": "",
+        "SQL-CONNECTION": "Server=LAPTOP-O2LNV17G\\SQLEXPRESS;Database=eShopOrdering;Trusted_Connection=True;TrustServerCertificate=true",
+        "BLOB-CONNECTION": "",
+        "KAFKA-USERNAME": "",
+        "KAFKA-PASSWORD": ""
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

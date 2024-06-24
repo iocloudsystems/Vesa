@@ -1,0 +1,17 @@
+﻿{
+  "profiles": {
+    "eShop.Ordering.Inquiry.Worker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "COSMOSDB-URL": "https://localhost:8081",
+        "COSMOSDB-KEY": "",
+        "SQL-CONNECTION": "Server=LAPTOP-O2LNV17G\\SQLEXPRESS;Database=eShopOrdering;Integrated Security=true;TrustServerCertificate=true",
+        "BLOB-CONNECTION": "",
+        "KAFKA-USERNAME": "",
+        "KAFKA-PASSWORD": ""
+      }
+    }
+  }
+}

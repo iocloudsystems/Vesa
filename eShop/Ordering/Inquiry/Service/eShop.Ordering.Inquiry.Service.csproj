@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net70</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\vesa\Core\vesa.Core.csproj" />
+    <ProjectReference Include="..\..\Management\Events\eShop.Ordering.Management.Events.csproj" />
+    <ProjectReference Include="..\StateViews\eShop.Ordering.Inquiry.StateViews.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Inquiry\StateViews\eShop.Ordering.Inquiry.StateViews.csproj" />
+    <ProjectReference Include="..\..\Management\Events\eShop.Ordering.Management.Events.csproj" />
+    <ProjectReference Include="..\Events\eShop.Ordering.Administration.Events.csproj" />
+  </ItemGroup>
+
+</Project>
