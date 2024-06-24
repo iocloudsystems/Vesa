@@ -2,7 +2,6 @@
 |--------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Command                  | A request to initiate a particular business process. Can be invoked by an HTTP Request with the body binding to    |
 |                          | Command properties or created by an automated service processor such as a Service Bus.                             |
-
 | CommandHandler           | Handles the command by orchestrating business domain processing and event persistence.                             |
 | IDomain                  | Interface for performing business validation and enforcing business rules and logic and if successful, creates a   |
 |                          | domain event for storage.                                                                                          |
