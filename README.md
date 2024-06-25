@@ -1,4 +1,4 @@
-Introduction to VESA can be found [here](https://github.com/iocloudsystems/Vesa)
+Introduction to VESA can be found [here](https://github.com/iocloudsystems/Vesa).
 
 **
 **IMPORTANT: 
